@@ -23,7 +23,7 @@ ins,a{text-decoration:none}
 .right{ float: right;}
 
 /*layout*/
-html,body{ height: 100%; width: 100%;}
+html,body{ height: 100%; width: 100%; font-size: 12px;}
 body{ text-align: left; background-color: #fff; color: #333; line-height: 150%; font-family: arial,Helvetica,sans-serif;} /*font-family: arial,Helvetica,sans-serif; */
 
 .img-wrap{ font-size: 0; line-height: 0; }

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="yes" name="apple-touch-fullscreen" />
+	<meta content="telephone=no,email=no" name="format-detection" />
+	<script type="text/javascript" src="assets/js/flexible.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<title>全民分销-我的储钱罐-申请</title>
+</head>
+<body>
+	<div class="page-wrap page-withdraw">
+		<div class="container">
+			<div class="container-inner">
+				<div class="withdraw-content">
+					<div class="user-withdraw">
+						<div class="img-wrap"><img src="assets/images/icon_rs1.png" /></div>
+						<div class="label">可提现返利(元)</div>
+						<div class="value">109.80</div>
+					</div>
+					<div class="form-section form-withdraw">
+						<div class="form-item cf">
+							<label>微信昵称</label>
+							<div class="value">李快乐...yy</div>
+						</div>
+						<div class="form-item cf">
+							<label>提现金额</label>
+						</div>
+						<div class="form-item cf">
+							<label class="icon">&yen;</label>
+							<input id="sum" type="number" />
+						</div>
+						<div class="form-item cf">
+							<span data-popup="#popup-1" class="btn-popup">提现须知</span>
+							<span>*提现的金额通过审核后会直接转入微信零钱</span>
+						</div>
+						<div class="submit-item cf">
+							<a data-popup="#popup-2" href="withdraw_success.html" class="btn btn-submit btn-submit-1">确定</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-1" class="popup">
+		<div class="popup-masker"></div>
+		<div class="popup-content">
+			<div class="icon popup-close"></div>
+			<div class="popup-content-inner">
+				<div class="title">Q：关于提现我要注意些什么？</div>
+				<div class="text">A：只有在周六、周日两天内，并且提现金额超过50元才可以申请提现。申请了提现后，财务和管理人员将在1~5个工作日进行审核工作，审核通过后会将提现金额直接打入微信零钱账户中。（具体到账时间以微信到账为准）</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-2" class="popup">
+		<div class="popup-masker"></div>
+		<div class="popup-content">
+			<div class="icon popup-close"></div>
+			<div class="popup-content-inner">
+				<div class="des">提现金额<span class="text-light">不足50元</span><br />无法申请提现</div>
+				<div class="btn-bar"><span class="btn btn-submit btn-submit-1 btn-close">确定</span></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

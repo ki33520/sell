@@ -10,6 +10,16 @@
 .page-bottom-bar{ padding-bottom: 1.32rem;}
 .bottom-bar{ position: fixed; left: 0; bottom: 0; width: 100%; height: 1.32rem;}
 .bottom-bar-inner{ height: 100%; padding-top: 0.13rem; box-sizing: border-box; border-top: 1px solid #dbdbdb; background-color: rgba(255,255,255,0.9); text-align: center;}
+.popup{ display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%;}
+.popup .popup-masker{ position: absolute; width: 100%; height: 100%; background-color: #000; opacity: 0.5;}
+.popup .popup-content{ position: absolute; width: 8.8rem; height: 4.8rem; left: 50%; margin-left: -4.4rem; top: 50%; margin-top: -2.4rem;}
+.popup .popup-content .popup-close{ position: absolute; right: 0; top: -0.9rem; width: 0.69333rem; height: 0.69333rem; background-image: url(../images/icon_close.png);}
+.popup .popup-content-inner{ background-color: #fff; border-radius: 0.5rem; overflow: hidden; height: 100%; box-shadow: 0 0 0.5rem #777;}
+.popup .popup-content .title{ color: #000; background-color: rgba(204,204,204,0.5); font-size: 0.36rem; line-height: 1rem; padding: 0 0.6rem;}
+.popup .popup-content .text{ color: #000; font-size: 0.36rem; line-height: 150%; padding: 0.3rem 0.6rem;}
+.popup .popup-content .des{ color: #000; font-size: 0.42rem; line-height: 150%; padding: 0.9rem 0 0.6rem; text-align: center; }
+.popup .popup-content .des .text-light{ color: #fb3149; }
+.popup .popup-content .btn-bar{ text-align: center; }
 
 /*form results*/
 .form-apply{ padding-top: 1.5rem; }
@@ -56,6 +66,7 @@
 .product-content .control-bar .inner{ margin: 0 0.3rem; border-bottom: 1px solid #dfdfdf; }
 
 /*mywallet*/
+.user-info-banner{ height: 5.06667rem; }
 .user-info-banner .btn-rule-1{ top: 0.6rem; }
 .user-info{ position: absolute; left: 0.4rem; top: 0.3rem; line-height: 1.36rem; color: #fff;}
 .user-info .user-head{ width: 1.2rem; height: 1.2rem; overflow: hidden; border: 0.08rem solid #fe7d5f; border-radius: 100%; margin-right: 0.2rem;}
@@ -77,7 +88,7 @@
 .tab-content-item{ display: none; }
 .tab-content-item.active{ display: block; }
 .tab-content-item .pd-list{ padding: 0 0 1px 0; }
-.tab-content-item .pd-list .pd-item{ margin-bottom: 0.2rem; }
+.tab-content-item .pd-list .pd-item{ margin-bottom: 0.2rem; font-size: 0.32rem;}
 .pd-item-head{ padding: 0 0.4rem; border-bottom: 1px solid #dfdfdf; line-height: 0.8rem; }
 .pd-item-head .text-data{ color: #666; font-size: 0.3rem;}
 .pd-item-head .text-light{ color: #fb3149; }
@@ -97,4 +108,21 @@
 .billing-item-content .text-date{ line-height: 120%; font-size: 0.3rem; color: #999; padding: 0.2rem 0 0 0;}
 
 .tab-content-item .icon-result{ padding-top: 1.2rem; }
-.text-tips{ text-align: center; font-size: 0.4rem; color: #333; line-height: 150%; }
+.text-tips{ text-align: center; font-size: 0.4rem; color: #333; line-height: 150%;}
+
+/*withdraw*/
+.user-withdraw{ text-align: center;  padding-bottom: 0.8rem;}
+.user-withdraw .img-wrap{ text-align: center; padding: 1rem 0 0.6rem;}
+.user-withdraw .label{ color: #666; font-size: 0.4rem; line-height: 150%;}
+.user-withdraw .value{ color: #ff3b52; font-size: 0.8rem; line-height: 150%;}
+.form-withdraw{ padding: 0 0.8rem; }
+.form-withdraw .form-item label{ font-size: 0.36rem; width: 2rem; line-height: 0.5rem; margin-left: 0;}
+.form-withdraw .form-item label.icon{ width: auto; line-height: 1rem;}
+.form-withdraw .form-item .value{ font-size: 0.36rem; line-height: 0.5rem;}
+.form-withdraw .form-item input[type=text],
+.form-withdraw .form-item input[type=number]{float: left; color: #333; background-color: transparent; font-size: 0.45rem; box-sizing: border-box; padding: 0.2rem; border: none; border-radius: 0.15rem; width: 7.3rem; height: 1rem;}
+.form-withdraw .form-item .btn-popup{ color: #0763ca; }
+.form-withdraw-ss{ background-image: url(../images/bg_withdraw_ss.png); width: 9.2rem; height: 3.66667rem; margin: 0 auto; box-sizing: border-box; padding: 1rem 1rem 0; margin-bottom: 1rem;}
+.form-withdraw-ss .form-item label{ width: 3rem; }
+.form-withdraw-ss .form-item .value{ text-align: right; color: #000; }
+.form-withdraw-ss .form-item .price{ font-size: 0.48rem; }

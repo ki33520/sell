@@ -18,4 +18,29 @@ $('.tab-block').each(function(){
 			setActive(index);
 		})
 	})
+});
+
+$('.btn-popup').each(function(){
+	$(this).on('click',function(){
+		var popup = $(this).data('popup');
+		$(popup).show();
+	})
+});
+$('.popup').each(function(){
+	var self = this;
+	function hidePopUp(){
+		$(self).hide();
+	}
+	$(this).find('.popup-masker').on('click',hidePopUp);
+	$(this).find('.popup-close').on('click',hidePopUp);
+	$(this).find('.btn-close').on('click',hidePopUp);
+});
+
+$('.form-withdraw .btn-submit').click(function(){
+	var sum = $.trim($('#sum').val());
+	if(sum===''){
+		var popup = $(this).data('popup');
+		$(popup).show();
+		return false;
+	}
 })
