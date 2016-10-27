@@ -32,6 +32,7 @@ body{ text-align: left; background-color: #fff; color: #333; line-height: 150%; 
 .btn:active,
 .btn:visited{ text-decoration: none; }
 .btn-submit{ background: linear-gradient(60deg, #fd6659, #fc566a); width: 5rem; height: 0.93333rem; line-height: 0.93333rem; font-size: 0.42666rem; border-radius: 0.93333rem; box-shadow: 0 0.1rem 0.2rem #ee3a4f;}
+.btn-submit.disabled{ background: linear-gradient(60deg, #bbb, #aaa); box-shadow: 0 0.1rem 0.2rem #888;}
 .btn-submit-1{ width: 5rem; height: 1.2rem; border-radius: 1.2rem; line-height: 1.3rem;}
 .btn-rule-1{ background-image: url(../images/btn_rule_1.png); width: 1.84rem; height: 0.66667rem; line-height: 0.66667rem;}
 .btn-fl{ background-image: url(../images/icon_fl.png); background-size: 0.92rem auto; background-position: left center; padding-left: 1rem; color: #ff3b52;}
@@ -42,7 +43,7 @@ body{ text-align: left; background-color: #fff; color: #333; line-height: 150%; 
 .icon-result{ text-align: center; }
 .icon-price-tip{ background-image: url(../images/icon_price.png); width: 1.22667rem; height: 0.61333rem; text-indent: -999rem; overflow: hidden;}
 .icon-info{ background-image: url(../images/icon_info.png); background-size: 0.28rem auto; background-position: left center; padding-left: 0.4rem; font-size: 0.4rem;}
-.icon-toggle{ background-image: url(../images/icon_toggle.png); background-size: 0.30667rem auto; background-position: right 0.05rem; padding-right: 0.4rem; font-size: 0.4rem; color: #fb3149;}
+.icon-toggle{ background-image: url(../images/icon_toggle.png); background-size: 0.30667rem auto; background-position: right 0.06rem; padding-right: 0.4rem; font-size: 0.4rem; color: #fb3149;}
 .product-content.active .icon-toggle{ background-position: right -0.32rem;}
 .icon-list-1{ background-image: url(../images/icon_list1.png); }
 .icon-list-2{ background-image: url(../images/icon_list2.png); }

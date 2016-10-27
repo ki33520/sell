@@ -17,16 +17,25 @@
 				<div class="form-section form-apply">
 					<div class="form-item cf">
 						<label>姓名</label>
-						<input type="text" />
+						<input placeholder="请输入您的真实姓名" type="text" />
 					</div>
 					<div class="form-item cf">
 						<label>微信号</label>
-						<input type="text" />
+						<input placeholder="请正确输入您的微信号" type="text" />
 					</div>
 					<div class="submit-item cf">
-						<a href="verify.html" class="btn btn-submit btn-submit-1">提交申请</a>
+						<a href="verify.html" data-popup="#popup-1" id="apply-btn" class="btn btn-submit btn-submit-1">提交申请</a>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-1" class="popup">
+		<div class="popup-masker"></div>
+		<div class="popup-content">
+			<div class="icon popup-close"></div>
+			<div class="popup-content-inner">
+				<div class="alerts">提交成功</div>
 			</div>
 		</div>
 	</div>
