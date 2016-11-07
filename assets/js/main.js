@@ -54,9 +54,13 @@ $('#apply-btn').on('click',function(){
 });
 $('.btn-buy').on('click',function(){
 	$('.product-buy').show();
+	$(this).hide();
+	$('.btn-confirm').show();
 });
 $('.product-buy .close').on('click',function(){
 	$('.product-buy').hide();
+	$('.btn-buy').show();
+	$('.btn-confirm').hide();
 });
 $('.add-sub').each(function(){
 	var sub = $(this).find('.btn-sub'),

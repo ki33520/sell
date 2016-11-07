@@ -87,11 +87,17 @@
 		<div class="bottom-bar">
 			<div class="bottom-bar-inner">
 				<a class="btn btn-submit btn-buy">立即抢购</a>
+				<a style="display:none;" class="btn btn-submit btn-confirm">确定购买</a>
 			</div>
 		</div>
 	</div>
 
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		window.close = function(){
+			alert(1)
+		}
+	</script>
 </body>
 </html>
